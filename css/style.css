@@ -1,1 +1,130 @@
+/* Start Body*/
+body {
+    background-color: #FDFFA7;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+/*End Body*/
 
+/*Start Debug*/
+.bg-blue {
+    background-color:#7DDE61;
+    border-radius:4px;
+}
+.bg-red{
+    background-color:#46A631;
+    border-radius:4px;
+}
+/*End Debug*/
+
+/*Start Container*/
+.container{
+    margin: 12px auto;
+    overflow: auto;
+    width: 90%;
+}
+.container-full{
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+}
+/*End Container*/
+
+/*Start Logo*/
+.logo {
+    text-align: center;
+}
+/*End Logo*/
+
+/*Start Anchor/Hyperlink*/
+a:link,
+a:visited{
+    columns: #003366;
+    text-decoration:none;
+}
+a:hover,
+a:active{
+    columns: #003366;
+    text-decoration:underline;
+}
+/*End Anchor/Hyperlink*/
+
+/*Start Menu Primer*/
+.menu-primer ul {
+    background-color: #98FF1A;
+    border-radius:4px;
+    box-shadow: 
+        0 3px 5px -1px rgba(0,0,0,.2),
+        0 6px 10px 0 rgba(0,0,0,.14),
+        0 1px 18px 0 rgba(0,0,0,.12);
+}
+
+.menu-primer li{
+    border-right: 1px solid #d1d5da;
+    display:inline-block;
+}
+
+.menu-primer a{
+    color: #ffffff;
+    font-size: 13px;
+    display:inline-block;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.menu-primer a:hover{
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: none;
+}
+
+.menu-primer .active{
+    background-color: #ffffff;
+    color:#000000;
+    text-decoration: none;
+}
+/*End Menu Primer*/
+
+/*Start Heading*/
+h1, h2, h3, h4, h5, h6{
+    font-weight: 400;
+    letter-spacing:1px;
+}
+h1{
+    font-size:28px;
+}
+h2{
+    font-size:24px;
+}
+h3{
+    font-size:18px;
+}
+h4{
+    font-size:16px;
+}
+h5{
+    font-size:14px;
+}
+h6{
+    font-size:13px;
+}
+/*End Heading*/
+
+/*Start Jumbotron*/
+.jumbotron {
+    background-color: #f6f8fa;
+    border: 1px solid #cacccf;
+    border-radius:4px;
+    padding:20px 0;
+}
+
+/*End Jumbotron*/
+
+/*Start Box*/
+
+/*End Box*/
