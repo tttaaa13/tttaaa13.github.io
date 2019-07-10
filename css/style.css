@@ -21,6 +21,11 @@ body {
     color: antiquewhite;
     border-radius:4px;
 }
+.bg-pink{
+    background-color: #e96357;
+    color: #030303;
+    border-radius: 4px;
+}
 /*End Debug*/
 
 /*Start Container*/
@@ -35,6 +40,11 @@ body {
     margin: 10px auto;
     overflow: auto;
     width: 100%;
+}
+.container-half{
+   text-align: center;
+   margin: 10px;
+   /* overflow: auto; */
 }
 /*End Container*/
 
